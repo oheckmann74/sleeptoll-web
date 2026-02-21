@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Sleep Toll — 你的身体欠了多少小时的睡眠？</title>
+<meta name="description" content="30 天滚动睡眠债务，通过 Apple Health 计算。无需账户。没有服务器。数据只存在你的设备上。">
+<meta property="og:title" content="Sleep Toll — 你的身体欠了多少小时的睡眠？">
+<meta property="og:description" content="30 天滚动睡眠债务，通过 Apple Health 计算。">
+<meta property="og:image" content="https://sleeptoll.app/og/og.png">
+<meta property="og:url" content="https://sleeptoll.app/zh-hans/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="zh_CN">
+<meta name="theme-color" content="#050505">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="alternate" hreflang="en" href="https://sleeptoll.app/">
+<link rel="alternate" hreflang="de" href="https://sleeptoll.app/de/">
+<link rel="alternate" hreflang="ja" href="https://sleeptoll.app/ja/">
+<link rel="alternate" hreflang="ko" href="https://sleeptoll.app/ko/">
+<link rel="alternate" hreflang="es" href="https://sleeptoll.app/es/">
+<link rel="alternate" hreflang="pt" href="https://sleeptoll.app/pt-br/">
+<link rel="alternate" hreflang="fr" href="https://sleeptoll.app/fr/">
+<link rel="alternate" hreflang="zh-Hans" href="https://sleeptoll.app/zh-hans/">
+<link rel="alternate" hreflang="x-default" href="https://sleeptoll.app/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600;700&family=Inter:wght@400;500;600&family=Noto+Sans+SC:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/style.css">
+<link rel="icon" type="image/png" href="/favicon.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+</head>
+<body>
+
+<section class="hero">
+  <div class="hero-label">SLEEP TOLL</div>
+  <div class="hero-number" id="debt-number">0.0</div>
+  <div class="hero-unit">HOURS</div>
+  <div class="badge badge--critical">CRITICAL</div>
+  <p class="hero-hook">你的身体欠了多少小时的睡眠？</p>
+  <a class="store-badge" href="https://apps.apple.com/app/sleep-toll/id000000000" aria-label="在 App Store 下载">
+    <img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/zh-cn" alt="在 App Store 下载">
+  </a>
+</section>
+
+<section class="pov">
+  <p class="pov-hook">pov: you download a sleep app thinking you're doing fine and it tells you that you owe yourself 52 hours of sleep</p>
+  <p class="pov-hook">no because why did this app just tell me my sleep debt is CRITICAL like i'm in the ER</p>
+  <p class="pov-hook">67 hours of sleep debt. SIXTY SEVEN. she's 4 months old and i am a shell of a person.</p>
+  <p class="pov-hook">finally hit zero sleep debt. i don't even recognize myself. i have ENERGY??</p>
+</section>
+
+<section class="vid">
+  <video autoplay muted loop playsinline preload="none" loading="lazy" width="390" height="693">
+    <source src="/video/reveal.mp4" type="video/mp4">
+  </video>
+</section>
+
+<section class="how">
+  <h2>使用方法</h2>
+  <div class="step">
+    <div class="step-dot" style="background:var(--low)"></div>
+    <div><div class="step-title">同步</div><div class="step-desc">通过 HealthKit 读取 Apple Watch 睡眠数据。</div></div>
+  </div>
+  <div class="step">
+    <div class="step-dot" style="background:var(--elevated)"></div>
+    <div><div class="step-title">查看数字</div><div class="step-desc">30 天滚动睡眠债务，每天早上更新。</div></div>
+  </div>
+  <div class="step">
+    <div class="step-dot" style="background:var(--critical)"></div>
+    <div><div class="step-title">分享</div><div class="step-desc">截图即发的卡片，天然传播。</div></div>
+  </div>
+</section>
+
+<div class="gallery">
+  <div class="gallery-card">
+    <div class="gc-label" style="color:var(--critical)">SLEEP TOLL</div>
+    <div class="gc-num">52.3</div>
+    <div class="gc-unit">HOURS</div>
+    <div class="gc-badge" style="color:var(--critical);background:rgba(255,59,48,.15);border:1px solid rgba(255,59,48,.32)">CRITICAL</div>
+  </div>
+  <div class="gallery-card">
+    <div class="gc-label" style="color:var(--clear)">SLEEP TOLL</div>
+    <div class="gc-num">0.0</div>
+    <div class="gc-unit">HOURS</div>
+    <div class="gc-badge" style="color:var(--clear);background:rgba(52,199,89,.15);border:1px solid rgba(52,199,89,.32)">CLEAR</div>
+  </div>
+  <div class="gallery-card">
+    <div class="gc-label" style="color:var(--high)">SLEEP TOLL</div>
+    <div class="gc-num">22.0</div>
+    <div class="gc-unit">HOURS</div>
+    <div class="gc-badge" style="color:var(--high);background:rgba(255,107,53,.15);border:1px solid rgba(255,107,53,.32)">HIGH</div>
+  </div>
+</div>
+
+<footer>
+  <div class="wordmark">SLEEP TOLL</div>
+  <div class="locale-switch">
+    <a href="/">EN</a><span>|</span><a href="/de/">DE</a><span>|</span><a href="/ja/">JA</a><span>|</span><a href="/ko/">KO</a><span>|</span><a href="/es/">ES</a><span>|</span><a href="/pt-br/">PT</a><span>|</span><a href="/fr/">FR</a><span>|</span><a href="/zh-hans/" aria-current="page">ZH</a>
+  </div>
+  <div class="footer-links">
+    <a href="/privacy/">隐私</a>
+    <a href="/terms/">条款</a>
+    <a href="mailto:support@sleeptoll.app">支持</a>
+  </div>
+  <div class="tagline">无需账户。没有服务器。数据只存在你的设备上。</div>
+  <a class="store-badge" href="https://apps.apple.com/app/sleep-toll/id000000000" aria-label="在 App Store 下载">
+    <img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/zh-cn" alt="在 App Store 下载">
+  </a>
+  <div class="copy">&copy; 2026 Vectorate LLC. All rights reserved.</div>
+</footer>
+
+<script src="/count-up.js"></script>
+</body>
+</html>

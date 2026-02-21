@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Sleep Toll — 당신의 몸에 얼마나 많은 잠을 빚지고 있나요?</title>
+<meta name="description" content="Apple Health에서 계산되는 30일 누적 수면 부채. 계정 없음. 서버 없음. 데이터는 기기에만 저장됩니다.">
+<meta property="og:title" content="Sleep Toll — 당신의 몸에 얼마나 많은 잠을 빚지고 있나요?">
+<meta property="og:description" content="Apple Health에서 계산되는 30일 누적 수면 부채.">
+<meta property="og:image" content="https://sleeptoll.app/og/og.png">
+<meta property="og:url" content="https://sleeptoll.app/ko/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="ko_KR">
+<meta name="theme-color" content="#050505">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="alternate" hreflang="en" href="https://sleeptoll.app/">
+<link rel="alternate" hreflang="de" href="https://sleeptoll.app/de/">
+<link rel="alternate" hreflang="ja" href="https://sleeptoll.app/ja/">
+<link rel="alternate" hreflang="ko" href="https://sleeptoll.app/ko/">
+<link rel="alternate" hreflang="es" href="https://sleeptoll.app/es/">
+<link rel="alternate" hreflang="pt" href="https://sleeptoll.app/pt-br/">
+<link rel="alternate" hreflang="fr" href="https://sleeptoll.app/fr/">
+<link rel="alternate" hreflang="zh-Hans" href="https://sleeptoll.app/zh-hans/">
+<link rel="alternate" hreflang="x-default" href="https://sleeptoll.app/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600;700&family=Inter:wght@400;500;600&family=Noto+Sans+KR:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/style.css">
+<link rel="icon" type="image/png" href="/favicon.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+</head>
+<body>
+
+<section class="hero">
+  <div class="hero-label">SLEEP TOLL</div>
+  <div class="hero-number" id="debt-number">0.0</div>
+  <div class="hero-unit">HOURS</div>
+  <div class="badge badge--critical">CRITICAL</div>
+  <p class="hero-hook">당신의 몸에 얼마나 많은 잠을 빚지고 있나요?</p>
+  <a class="store-badge" href="https://apps.apple.com/app/sleep-toll/id000000000" aria-label="App Store에서 다운로드">
+    <img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/ko-kr" alt="App Store에서 다운로드">
+  </a>
+</section>
+
+<section class="pov">
+  <p class="pov-hook">수면 앱 다운받았는데 52시간이나 수면 빚이 있대. 나 괜찮은 줄 알았는데.</p>
+  <p class="pov-hook">이 앱이 내 수면 부채가 '위험'이래. 응급실 온 것 같잖아.</p>
+  <p class="pov-hook">수면 부채 67시간. 예순일곱 시간. 아이가 4개월인데 나는 껍데기만 남았다.</p>
+  <p class="pov-hook">드디어 수면 부채 제로. 나 자신을 못 알아보겠어. 에너지가 있다고??</p>
+</section>
+
+<section class="vid">
+  <video autoplay muted loop playsinline preload="none" loading="lazy" width="390" height="693">
+    <source src="/video/reveal.mp4" type="video/mp4">
+  </video>
+</section>
+
+<section class="how">
+  <h2>사용 방법</h2>
+  <div class="step">
+    <div class="step-dot" style="background:var(--low)"></div>
+    <div><div class="step-title">동기화</div><div class="step-desc">Apple Watch 수면 데이터를 HealthKit으로 읽어옵니다.</div></div>
+  </div>
+  <div class="step">
+    <div class="step-dot" style="background:var(--elevated)"></div>
+    <div><div class="step-title">숫자 확인</div><div class="step-desc">30일 누적 수면 부채, 매일 아침 업데이트.</div></div>
+  </div>
+  <div class="step">
+    <div class="step-dot" style="background:var(--critical)"></div>
+    <div><div class="step-title">공유하기</div><div class="step-desc">바이럴되는 스크린샷용 카드.</div></div>
+  </div>
+</section>
+
+<div class="gallery">
+  <div class="gallery-card">
+    <div class="gc-label" style="color:var(--critical)">SLEEP TOLL</div>
+    <div class="gc-num">52.3</div>
+    <div class="gc-unit">HOURS</div>
+    <div class="gc-badge" style="color:var(--critical);background:rgba(255,59,48,.15);border:1px solid rgba(255,59,48,.32)">CRITICAL</div>
+  </div>
+  <div class="gallery-card">
+    <div class="gc-label" style="color:var(--clear)">SLEEP TOLL</div>
+    <div class="gc-num">0.0</div>
+    <div class="gc-unit">HOURS</div>
+    <div class="gc-badge" style="color:var(--clear);background:rgba(52,199,89,.15);border:1px solid rgba(52,199,89,.32)">CLEAR</div>
+  </div>
+  <div class="gallery-card">
+    <div class="gc-label" style="color:var(--high)">SLEEP TOLL</div>
+    <div class="gc-num">22.0</div>
+    <div class="gc-unit">HOURS</div>
+    <div class="gc-badge" style="color:var(--high);background:rgba(255,107,53,.15);border:1px solid rgba(255,107,53,.32)">HIGH</div>
+  </div>
+</div>
+
+<footer>
+  <div class="wordmark">SLEEP TOLL</div>
+  <div class="locale-switch">
+    <a href="/">EN</a><span>|</span><a href="/de/">DE</a><span>|</span><a href="/ja/">JA</a><span>|</span><a href="/ko/" aria-current="page">KO</a><span>|</span><a href="/es/">ES</a><span>|</span><a href="/pt-br/">PT</a><span>|</span><a href="/fr/">FR</a><span>|</span><a href="/zh-hans/">ZH</a>
+  </div>
+  <div class="footer-links">
+    <a href="/privacy/">개인정보</a>
+    <a href="/terms/">이용약관</a>
+    <a href="mailto:support@sleeptoll.app">지원</a>
+  </div>
+  <div class="tagline">계정 없음. 서버 없음. 데이터는 기기에만 저장됩니다.</div>
+  <a class="store-badge" href="https://apps.apple.com/app/sleep-toll/id000000000" aria-label="App Store에서 다운로드">
+    <img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/ko-kr" alt="App Store에서 다운로드">
+  </a>
+  <div class="copy">&copy; 2026 Vectorate LLC. All rights reserved.</div>
+</footer>
+
+<script src="/count-up.js"></script>
+</body>
+</html>
