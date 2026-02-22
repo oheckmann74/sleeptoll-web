@@ -1,9 +1,14 @@
-const SUPPORTED_LOCALES = ['de','es','fr','ja','ko','pt-br','zh-hans'];
+const SUPPORTED_LOCALES = [
+  'ar','cs','da','de','es','fi','fr','hi','hu','id','it','ja','ko',
+  'ms','nb','nl','pl','pt-br','ro','ru','sv','th','tr','uk','vi','zh-hans','zh-hant'
+];
 const COOKIE_NAME = 'lang';
 
 const LOCALE_MAP = {
   'pt-br': 'pt-br', 'pt': 'pt-br',
   'zh-cn': 'zh-hans', 'zh-hans': 'zh-hans', 'zh-sg': 'zh-hans', 'zh': 'zh-hans',
+  'zh-tw': 'zh-hant', 'zh-hant': 'zh-hant', 'zh-hk': 'zh-hant',
+  'nb': 'nb', 'no': 'nb', 'nn': 'nb',
 };
 
 function getPreferredLocale(request) {
